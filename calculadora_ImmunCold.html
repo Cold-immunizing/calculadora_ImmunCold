@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    Quantidade de vacinas comprdas: <input id="vacinasComp"><br>
+    Quantidade de vacinas vendidas: <input id="vacinasVend"><br>
     Quantidade de vacinas descartadas: <input id="vacinasDescart"><br>
     Valor pago por vacina: <input id="valVacina">
     <button onclick="Calculo()">Calcular prejuizo</button><br><br>
@@ -17,7 +17,7 @@
 
 <script>
     function Calculo(){
-        var compra = Number(vacinasComp.value)
+        var vendidas = Number(vacinasVend.value)
         var descarte = Number(vacinasDescart.value)
         var custoVacina = Number(valVacina.value)
 
