@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+    
+</head>
+<body>
+    <div class="calculadora">
+<h1>Calculadora Financeira</h1>
+<div class="form">
+<label> Quantidade de vacinas vendidas</label>
+<input type="number" id="input_qtda_vacinas_perdidas" placeholder="ex 0."><br><br>
+<label>Quantidade de vacinas descartadas</label>
+<input type="number" id="input_qtda_vacinas_descartdas" placeholder= "ex 0."><br><br>
+<label>Valor pago por vacina</label>
+<input type="number" id="input_valor_pago" placeholder="R$ ?"><br><br>
+<button onclick="calcular()">Calcular</button>
+
+</div>
+
+
+<p id="resultado"></p>
+
+
+</body>
+</html>
+
+<script>
+
+
+
+function calcular(){
+        var vendidas = Number(input_qtda_vacinas_perdidas.value)
+        var descarte = Number(input_qtda_vacinas_descartdas.value)
+        var custoVacina = Number(input_valor_pago.value)
+
+        var valPerdido = descarte * custoVacina
+        var perdaPorc = valPerdido * 0.80
+
+        resultado.innerHTML= `Você ou seu cliente perdeu R$ ${valPerdido} sem nossos serviços.<br> 
+        Com a nossa contratação<br> você deixaria de perder 80% deste valor ${perdaPorc}`
+
+
+ }
+</script>

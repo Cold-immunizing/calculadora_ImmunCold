@@ -1,0 +1,35 @@
+body{
+    background-color: #000;
+    font-family: cursive;
+}
+.calculadora{
+    width: 350px;
+    height: 500px;
+    background-color: #ffe600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+}
+.calculadora h1{
+    text-align: center;
+}
+.form{
+    position: relative;
+    margin-left: 50px;
+}
+button{
+    padding: 10px 6px;
+   
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: 	yellow;
+    box-shadow: 0 10px 2px #222;
+}
+button:active{
+transform: translate(10px);
+box-shadow: none;
+
+}
