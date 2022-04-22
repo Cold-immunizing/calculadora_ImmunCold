@@ -53,8 +53,8 @@
         var valPerdido = descarte * custoVacina
         var perdaPorc = valPerdido * 0.80
 
-        resultado.innerHTML = `Você ou seu cliente perdeu R$ ${valPerdido} sem nossos serviços. 
-        Com a nossa contratação<br> você deixaria de perder 80% deste valor R$ ${perdaPorc}`
+        resultado.innerHTML = `Você ou seu cliente perdeu R$ ${valPerdido. toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})} sem nossos serviços. 
+        Com a nossa contratação<br> você deixaria de perder 80% deste valor R$ ${perdaPorc. toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`
 
 
     }
