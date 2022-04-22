@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .header {
+    background-color: white;
+    color: #85aacd;
+    border-bottom: 5px solid #85aacd;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+   display: flex;
+   list-style: none;
+   width: 400px;
+   justify-content: space-between; 
+   align-items: center;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: #ef6ea0; 
+  }
+  
+  .agora{
+      font-weight: bold;
+  }
+  
+  .baner{
+    align-items: center;
+  }
+  
+  .baner .container{
+      height: 400px;
+      display: flex;
+      color: white;
+      align-items: center;
+  
+  }
+  
+  .baner .cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .footer{
+      color: black;
+      height: 50px;
+  }
+  
+  .footer .container{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  
+  
+   img{
+    width: 400px;
+    height: 350px;
+  }
+  
+  .card{
+    background-color: #d5e1f3; 
+    color: #ef6ea0;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 24px;
+    width: 250px;
+  }
+  
+  form label{
+      margin-top: 8px;
+  }
+  
+  form input{
+      margin-top: 8px;
+      border: 0;
+      outline: 3px solid #85aacd;
+      border-radius: 8px;
+      padding: 8px;
+  }
+  
+   form button{
+      margin-top: 16px;
+      background-color: #ef6ea0;
+      color: white;
+      padding: 10px 15px;
+      width: 120px;
+      align-self: flex-end;
+      border-radius: 12px;
+      border: 0;
+      cursor: pointer;
+      font-size: 15px;
+    
+  }
+  .calculadora{
+    width: 350px;
+    height: 500px;
+    background-color: 		#85aacd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    top:50%;
+    margin-left: 7px;
+    margin-top: 40px;
+  
+  }
+  .calculadora h1{
+    text-align: center;
+    
+  }
+  .form{
+    position: relative;
+    margin-left: 50px;
+    border-radius: 200px;
+  }
+  button{
+   font-family: 'Patron';
+   cursor: pointer;
+   margin-left: 50px;
+   outline: none;
+   font-size: 12px;
+   padding: 20px 28px;
+   border-radius: 18px;
+   background: none;
+   transition: box-shadow 0.1s;
+   color: 	white;
+   border: 4px solid 	#ef6ea0;
+   background-color: #ef6ea0;
+  }
+  button:hover{
+  border: 4px solid 	#ef6ea0;
+  color: 	#ef6ea0;
+  box-shadow: 0px 0px 35px 	#ef6ea0, 0px 0px 15px 	#ef6ea0 inset;
+  text-shadow: 0px 0px 10px 	#ef6ea0 , 0px 0px 3px 	#ef6ea0;
+  color: white;
+  }
+  p{
+    text-align: center;
+  
+  }
